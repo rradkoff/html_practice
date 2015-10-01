@@ -18,3 +18,40 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+body {
+  background-image: url('grey.png');
+}
+
+.board {
+  border-width: thick;
+  border-style: solid;
+  border-color: #23756E;
+  margin: 36px auto;
+}
+
+.square {
+  color: #F4984C;
+  font-size: 48px;
+  height: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333;
+  width: 72px;
+}
+
+.dark_square {
+  background-color: #23756E; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(120deg, hsl(174, 71%, 36%), #23756E); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image: -moz-linear-gradient(120deg, hsl(174, 71%, 36%), #23756E); /* For Firefox (3.6 to 15) */
+  background-image: -o-linear-gradient(120deg, hsl(174, 71%, 36%), #23756E); /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient(120deg, hsl(174, 71%, 36%), #23756E) /* Standard syntax */
+}
+
+
+
+
+
+
+
+
+
+
